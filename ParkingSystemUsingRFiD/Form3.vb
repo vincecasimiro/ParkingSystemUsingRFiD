@@ -15,9 +15,17 @@
         End If
     End Sub
 
-    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Form1.Hide()
-        Form7.Hide()
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load, Button1.Enter
+        Form2.Close()
+        Form1.Close()
+        Form4.Close()
+        Form5.Close()
+        Form6.Close()
+        Form7.Close()
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Textbox_User.Text = ""
+        TextBox_Pass.Text = ""
+    End Sub
 End Class

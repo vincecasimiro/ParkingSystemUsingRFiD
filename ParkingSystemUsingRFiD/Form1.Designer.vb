@@ -43,18 +43,20 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(147, 222)
+        Me.Label2.Font = New System.Drawing.Font("Cambria Math", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(92, 121)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 18)
+        Me.Label2.Size = New System.Drawing.Size(184, 212)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "DATE"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(542, 222)
+        Me.Label3.Font = New System.Drawing.Font("Cambria Math", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(516, 121)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 18)
+        Me.Label3.Size = New System.Drawing.Size(181, 212)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "TIME"
         '

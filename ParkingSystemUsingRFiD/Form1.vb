@@ -6,6 +6,12 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
+        Form2.Close()
+        Form3.Close()
+        Form4.Close()
+        Form5.Close()
+        Form6.Close()
+        Form7.Close()
 
     End Sub
 

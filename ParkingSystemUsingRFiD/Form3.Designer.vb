@@ -115,6 +115,8 @@ Partial Class Form3
         Me.Controls.Add(Me.TextBox_Pass)
         Me.Controls.Add(Me.Textbox_User)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"
