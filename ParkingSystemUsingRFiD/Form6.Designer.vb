@@ -46,7 +46,7 @@ Partial Class Form6
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(21, 90)
+        Me.PictureBox1.Location = New System.Drawing.Point(21, 79)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(262, 248)
         Me.PictureBox1.TabIndex = 1
