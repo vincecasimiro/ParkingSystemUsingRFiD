@@ -24,4 +24,12 @@
         Form6.Hide()
         Form7.Hide()
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Form8.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form1.Show()
+    End Sub
 End Class

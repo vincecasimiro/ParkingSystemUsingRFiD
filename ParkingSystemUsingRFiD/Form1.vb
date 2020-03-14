@@ -1,23 +1,42 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form3.Show()
-        Form2.Close()
-        Form4.Close()
-        Form5.Close()
-        Form6.Close()
-        Form7.Close()
+
 
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
-
+        Form2.Close()
+        Form3.Close()
+        Form4.Close()
+        Form5.Close()
+        Form6.Close()
+        Form7.Close()
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Label2.Text = Date.Now.ToString("dd-MM-yyyy")
 
         Label3.Text = Date.Now.ToString("hh:mm:ss")
+
+        Label6.Text = Date.Now.ToString("dd-MM-yyyy")
+
+        Label5.Text = Date.Now.ToString("hh:mm:ss")
+
+
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub PanelConnection_Paint(sender As Object, e As PaintEventArgs) Handles PanelConnection.Paint, PanelMain.Paint
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
     End Sub
 End Class

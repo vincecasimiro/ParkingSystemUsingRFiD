@@ -27,7 +27,6 @@ Partial Class Form3
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -79,19 +78,6 @@ Partial Class Form3
         Me.Button2.Text = "Clear"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(247, 6)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(23, 24)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "X"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.UseVisualStyleBackColor = False
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -108,7 +94,6 @@ Partial Class Form3
         Me.BackColor = System.Drawing.Color.Lavender
         Me.ClientSize = New System.Drawing.Size(282, 253)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
@@ -130,6 +115,5 @@ Partial Class Form3
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents Label2 As Label
 End Class
