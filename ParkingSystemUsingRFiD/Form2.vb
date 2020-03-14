@@ -17,11 +17,11 @@
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Form1.Close()
-        Form3.Close()
-        Form4.Close()
-        Form5.Close()
-        Form6.Close()
-        Form7.Close()
+        Form1.Hide()
+        Form3.Hide()
+        Form4.Hide()
+        Form5.Hide()
+        Form6.Hide()
+        Form7.Hide()
     End Sub
 End Class

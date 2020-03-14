@@ -1,17 +1,16 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form3.Show()
+        Form2.Close()
+        Form4.Close()
+        Form5.Close()
+        Form6.Close()
+        Form7.Close()
 
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
-        Form2.Close()
-        Form3.Close()
-        Form4.Close()
-        Form5.Close()
-        Form6.Close()
-        Form7.Close()
 
     End Sub
 
